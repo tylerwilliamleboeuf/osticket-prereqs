@@ -49,27 +49,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Check Licensing
 - Click Review and Create
 
-<p>
 <img src="https://i.imgur.com/qYUei7w.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-
-
-</p>
-<br />
-
-<p>
 <img src="https://i.imgur.com/tMu5It8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<p>
+Creating a Virtual Machine (VM) in Microsoft Azure provides the environment needed to host and run the osTicket application. In this step, we configure the basic settings such as the resource group, region, operating system, and hardware specifications. This ensures we have a Windows 10 machine ready for remote access and installation of required components.
 </p>
 <br />
 
 <p>
-
   <h3>2. Connect to the VM </h3>
  
   - Use Remote Desktop to connect to osticket-vm with your credentials.
+
+<img src="https://i.imgur.com/rVyeCMm.png" />
 </p>
-<img src="https://i.imgur.com/rVyeCMm.png" "/>
+Once the VM is deployed, we use Remote Desktop Protocol (RDP) to connect to it. This allows us to interact with the Windows 10 environment just like a local machine. This connection is essential for performing all further configuration and installation steps. 
 </p>
 <br />
 
@@ -80,7 +75,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Extract the contents to a folder named osTicket-Installation-Files.
 
 <img src="https://i.imgur.com/jnpRMyU.png" />
-</p>
+<p> Downloading and organizing the osTicket installation files upfront ensures all required software components are readily available. This includes osTicket itself, PHP, MySQL, and necessary IIS modules. Extracting them into a dedicated folder keeps the setup process smooth and structured.
+</p> 
 <br />
 
 <p>
@@ -93,7 +89,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/lhkyk0x.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+IIS (Internet Information Services) is required to serve web pages, and the CGI feature is needed for PHP to function properly with osTicket. Enabling these ensures our server environment can run dynamic PHP scripts.
 </p>
 <br />
 
@@ -107,7 +103,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/bD2USwo.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The PHP Manager simplifies managing PHP settings in IIS, while the URL Rewrite Module is essential for clean, user-friendly URLs. Both are necessary for osTicket to run smoothly in a Windows environment.
 </p>
 <br />
 
@@ -123,7 +119,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/XOBm0X9.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+PHP is the scripting language osTicket is built on. This step installs the correct version and runtime components required for PHP to operate on Windows and communicate with IIS.
 </p>
 <br />
 
@@ -142,7 +138,7 @@ After installation, launch the Configuration Wizard:
 <img src="https://i.imgur.com/WnKjQHQ.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+MySQL is the database system that stores all osTicket data, including user info, tickets, and settings. This step ensures we have a functioning backend for the application to interact with.
 </p>
 <br />
 
@@ -159,7 +155,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/BN31CL5.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Registering the PHP executable with IIS allows the web server to process `.php` files. Without this configuration, the osTicket setup would not function or display properly.
+</p>
 </p>
 <br />
 
@@ -173,7 +170,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/rEGYIAb.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Deploying the osTicket files to the IIS web root makes the application accessible via the web browser. This is a key step in preparing the software for installation and configuration.
 </p>
 <br />
 
@@ -189,7 +186,7 @@ The osTicket setup page should open in your default browser.
 <img src="https://i.imgur.com/0SJjP5U.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Accessing the osTicket URL in a browser verifies the web server is working and begins the web-based installation. This is where the interactive setup process starts.
 </p>
 <br />
 
@@ -211,7 +208,7 @@ Refresh the osTicket setup page in your browser to confirm the extensions are en
 <img src="https://i.imgur.com/VTh3VPl.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+osTicket requires specific PHP extensions to function correctly. Enabling these ensures support for internationalization, email fetching, and performance improvements through caching.
 </p>
 <br />
 
@@ -233,7 +230,7 @@ Set permissions for ost-config.php:
 <img src="https://i.imgur.com/rNjLbye.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Renaming and setting permissions on the config file is critical for osTicket’s security and operability. This file holds database credentials and app settings, so it must be writable initially, then secured.
 </p>
 <br />
 
@@ -251,7 +248,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://i.imgur.com/oCXRRir.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+HeidiSQL is a GUI tool that makes it easy to manage MySQL databases. Here, we use it to create the osTicket database and verify connectivity before finishing installation.
 </p>
 <br />
 
@@ -274,7 +271,7 @@ In the osTicket setup page in your browser:
 <img src="https://i.imgur.com/tHqDp0f.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This step finalizes the software setup through a web interface. Here, we configure helpdesk details and link the application to our MySQL database to enable full functionality.
 </p>
 <br />
 
@@ -289,6 +286,7 @@ Upon successful installation:
 <img src="https://i.imgur.com/cPeowzd.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+After installation, osTicket provides two interfaces: the Admin Panel for backend management and the User Portal for customer ticket submissions. Verifying access ensures everything is configured properly.
+</p>
 </p>
 <br />
