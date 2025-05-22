@@ -6,15 +6,18 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- osTicket v1.15.8
+- PHP 7.3.8
+- MySQL 5.5.62
+- PHP Manager for IIS
+- URL Rewrite Module
+- HeidiSQL
 
 <h2>Operating Systems Used </h2>
 
