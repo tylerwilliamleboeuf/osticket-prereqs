@@ -149,15 +149,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <p>
   <h3>8. Configure PHP in IIS</h3>
  
-- Open IIS Manager.
-- In the left pane, select your server name.
+- Open IIS Manager through Windows search bar and run as administrator.
 - Double-click PHP Manager.
 - Click Register new PHP version.
 - Browse to C:\PHP\php-cgi.exe and select it.
 - Restart IIS: In the right pane, click Restart under Manage Server.
 
-<img src="https://i.imgur.com/bkkBVFY.png"/>
-<img src="https://i.imgur.com/WnKjQHQ.png"/>
+<img src="https://i.imgur.com/NkXDKPP.png"/>
+<img src="https://i.imgur.com/BN31CL5.png"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
