@@ -63,6 +63,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
  <h3>2. Connect to the VM </h3>
+ 
   - Use Remote Desktop to connect to osticket-vm with your credentials.
 </p>
 <img src="https://i.imgur.com/rVyeCMm.png" "/>
@@ -70,6 +71,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
+  <h3>3. Prepare Installation Files </h3>
+ 
+- Download osTicket-Installation-Files.zip (https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download) to the desktop.
+- Extract the contents to a folder named osTicket-Installation-Files.
+
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
