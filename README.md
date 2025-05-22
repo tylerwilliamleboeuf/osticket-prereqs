@@ -215,3 +215,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<p>
+  <h3>12. Configure osTicket</h3>
+ 
+Rename the configuration file:
+- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Set permissions for ost-config.php:
+- Right-click the file > Properties > Security > Advanced.
+- Click Disable inheritance and remove all inherited permissions.
+- Click Add > Select a principal > type Everyone > Check Names > OK.
+- Grant Full control permissions to Everyone.
+- Click OK to apply changes.
+
+<img src="https://i.imgur.com/HgujPme.png"/>
+<img src="https://i.imgur.com/VTh3VPl.png"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
