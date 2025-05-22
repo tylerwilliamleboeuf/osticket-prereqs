@@ -193,3 +193,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<p>
+  <h3>11. Enable PHP Extensions</h3>
+ 
+- In IIS Manager, navigate to Sites > Default Web Site > osTicket.
+- Double-click PHP Manager.
+- Click Enable or disable an extension.
+
+Enable the following extensions:
+- php_imap.dll
+- php_intl.dll
+- php_opcache.dll
+
+Refresh the osTicket setup page in your browser to confirm the extensions are enabled.
+
+<img src="https://i.imgur.com/HgujPme.png"/>
+<img src="https://i.imgur.com/VTh3VPl.png"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
