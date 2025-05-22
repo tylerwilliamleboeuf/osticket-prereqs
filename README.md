@@ -96,3 +96,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
+<p>
+  <h3>5. Install PHP Manager and URL Rewrite Module </h3>
+ 
+ From the osTicket-Installation-Files folder:
+- Install PHPManagerForIIS_V1.5.0.msi.
+- Install rewrite_amd64_en-US.msi.
+
+<img src="https://i.imgur.com/bD2USwo.png"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
