@@ -61,8 +61,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <img src="https://i.imgur.com/tMu5It8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
- <h3>2. Connect to the VM </h3>
+
+  <h3>2. Connect to the VM </h3>
  
   - Use Remote Desktop to connect to osticket-vm with your credentials.
 </p>
