@@ -25,11 +25,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Azure Virtual Machine
+- Access the VM
+- Prepare Installation Files
+- Enable IIS with CGI
+- Install PHP Manager and Rewrite Module
+- Install and Configure PHP
+- Install MySQL
+- Configure IIS
+- Install osTicket
+- Access osTicket in Browser
 
 <h2>Installation Steps</h2>
 
