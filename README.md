@@ -237,3 +237,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<p>
+  <h3>13. Install HeidiSQL and Create Database</h3>
+ 
+- Install HeidiSQL from the osTicket-Installation-Files folder.
+- Open HeidiSQL and create a new session:
+- Enter Username & Password.
+- Connect to the session.
+- Right-click in the left pane and select Create new > Database.
+- Name the database osTicket.
+
+<img src="https://i.imgur.com/SIS58Ra.png"/>
+<img src="https://i.imgur.com/oCXRRir.png"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
